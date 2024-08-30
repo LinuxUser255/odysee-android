@@ -36,8 +36,10 @@ TWITTER_CONSUMER_SECRET=
 
 8. At this point you now need to add your APK digital signature to the `app/build.gradle` file
    Adding it using the `build.gradle` provided by Odysee can be tricky, so I am including mine to use as a template,
-   It looks like this, but just edit the one here in my fork of this repo. See line 40 in my [build.gradle](https://github.com/LinuxUser255/odysee-android/blob/master/build.gradle
-   ) and type in the creds you created.
+   It looks like this, but just edit the one here in my fork of this repo.
+
+### See line 40 in my [build.gradle](https://github.com/LinuxUser255/odysee-android/blob/master/app/build.gradle) and type in the creds you created.
+Remember it's the gradel file in `app/build.gradle` file path. access it via the link above ^^^
 
 
 
