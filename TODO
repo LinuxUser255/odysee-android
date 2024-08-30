@@ -1,0 +1,4 @@
+Fix/improve the following
+
+- Enable the app to play in the background. Currently it will run for a couple minutes, then the video pauses and you have to press play again
+- Watching live streams only works for a few seconds, then stops, and cannot be resumed.
