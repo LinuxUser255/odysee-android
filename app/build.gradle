@@ -37,6 +37,17 @@ android {
     aaptOptions {
         ignoreAssetsPattern "com.android.graphics.injectLayers.enable"
     }
+    // add signingConfigs
+    signingConfigs {
+        release {
+            storeFile file('directory path to the keystore.jks you created')
+            storePassword 'pw you created'
+            keyAlias 'alias you created'
+            keyPassword 'pw you created'
+        }
+    }
+
+    flavorDimensions "default"
 
     buildTypes {
         debug {
